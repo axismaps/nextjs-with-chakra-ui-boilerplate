@@ -8,9 +8,9 @@ module.exports = {
     '!src/pages/**/*.tsx',
     '!src/theme/**/*.ts(x)?',
     '!src/**/mock.ts',
-    '!src/utils/test-utils.tsx'
+    '!src/utils/test-utils.tsx',
   ],
   setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
   snapshotSerializers: ['@emotion/jest/serializer'],
-  modulePaths: ['<rootDir>/src/']
-}
+  modulePaths: ['<rootDir>/src/'],
+};
