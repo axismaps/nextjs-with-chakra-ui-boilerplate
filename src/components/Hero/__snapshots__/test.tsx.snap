@@ -14,7 +14,6 @@ exports[`<Hero/ > should render with a default heading 1`] = `
   -ms-flex-pack: center;
   -webkit-justify-content: center;
   justify-content: center;
-  height: 100vh;
   background-image: linear-gradient(to left, #7928CA, #FF0080);
   color: transparent;
   -webkit-background-clip: text;
