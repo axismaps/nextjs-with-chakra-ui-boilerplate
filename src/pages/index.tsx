@@ -1,7 +1,7 @@
-import Hero from 'components/Hero'
-import Container from 'components/Container'
-import DarkModeSwitch from 'components/DarkModeSwitch'
-import Atlas from 'components/Atlas'
+import Hero from 'components/Hero';
+import Container from 'components/Container';
+import DarkModeSwitch from 'components/DarkModeSwitch';
+import Atlas from 'components/Atlas';
 
 const Index = () => (
   <Container height="100vh">
@@ -9,6 +9,6 @@ const Index = () => (
     <Hero />
     <Atlas />
   </Container>
-)
+);
 
-export default Index
+export default Index;

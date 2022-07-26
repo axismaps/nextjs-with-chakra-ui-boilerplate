@@ -1,4 +1,4 @@
-import Map from 'react-map-gl'
+import Map from 'react-map-gl';
 
 const Atlas = () => (
   <Map
@@ -6,10 +6,10 @@ const Atlas = () => (
     initialViewState={{
       longitude: -122.4,
       latitude: 37.8,
-      zoom: 14
+      zoom: 14,
     }}
     mapStyle="mapbox://styles/mapbox/streets-v9"
   />
-)
+);
 
-export default Atlas
+export default Atlas;

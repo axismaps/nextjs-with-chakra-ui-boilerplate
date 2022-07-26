@@ -1,9 +1,9 @@
-import Head from 'next/head'
-import { AppProps } from 'next/app'
-import { ChakraProvider } from '@chakra-ui/react'
+import Head from 'next/head';
+import { AppProps } from 'next/app';
+import { ChakraProvider } from '@chakra-ui/react';
 
-import theme from 'theme'
-import 'mapbox-gl/dist/mapbox-gl.css'
+import theme from 'theme';
+import 'mapbox-gl/dist/mapbox-gl.css';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
       <Component {...pageProps} />
     </ChakraProvider>
-  )
+  );
 }
 
-export default MyApp
+export default MyApp;
