@@ -10,7 +10,7 @@
     "test": "jest --maxWorkers=50%",
     "test:watch": "jest --watch --maxWorkers=25%",
     "postinstall": "husky install && chmod +x .husky/pre-commit",
-    "generate": "yarn plop --plopfile generators/plopfile.js",
+    "generate": "npx plop --plopfile generators/plopfile.js",
     "storybook": "start-storybook -s ./public -p 6006",
     "build-storybook": "build-storybook -s ./public"
   },
@@ -21,7 +21,7 @@
   },
   "lint-staged": {
     "src/**/*.ts(x)?": [
-      "yarn lint --fix"
+      "npm run lint --fix"
     ]
   },
   "dependencies": {

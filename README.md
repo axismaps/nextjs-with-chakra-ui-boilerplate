@@ -22,13 +22,13 @@ This project uses lot of stuff as:
 To create a project from this boilerplate run:
 
 ```bash
-yarn create next-app MY_PROJECT_NAME --example https://github.com/axismaps/nextjs-with-chakra-ui-boilerplate
+npx create-next-app@latest MY_PROJECT_NAME --example https://github.com/axismaps/nextjs-with-chakra-ui-boilerplate
 ```
 
 Then, run the development server:
 
 ```bash
-yarn dev
+npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
